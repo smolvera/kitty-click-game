@@ -1,0 +1,13 @@
+.navbar {
+    background-color: blue;
+    height: 100px;
+}
+
+.navbar-brand {
+    padding: 30px;
+    font-size: 40px;
+}
+.navbar-text {
+    padding: 550px;
+    font-size: 30px;
+}
