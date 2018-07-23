@@ -36,7 +36,7 @@ class App extends Component {
 
   render() {
     return <div>
-      <Navbar message={this.state.message} score={this.state.score} hiScore={this.state.hiScore} />
+      <Navbar guesses={this.state.guesses} score={this.state.score} hiScore={this.state.hiScore} />
       <Game>
         {cards
         .sort((a, b) => Math.random())
